@@ -9,10 +9,16 @@ import { AppComponent } from './app.component';
 import { MaterialModule } from './material.module';
 import { HomeComponent } from './home/home.component';
 import { CoursesComponent } from './courses/courses.component';
+import { CoursesService } from './shared/services/courses.service';
+import { LessonsService } from './shared/servies/lessons.service';
+import { CoursesListComponent } from './courses/courses-list/courses-list.component';
+import { CoursesDetailsComponent } from './courses/courses-details/courses-details.component';
+import { LessonsListComponent } from './lessons/lessons-list/lessons-list.component';
+import { UsersComponent } from './users/users.component';
 
 @NgModule({
   imports: [
-    BrowserModule,
+  BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     FormsModule,
@@ -22,9 +28,13 @@ import { CoursesComponent } from './courses/courses.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    CoursesComponent
+    CoursesComponent,
+    CoursesListComponent,
+    CoursesDetailsComponent,
+    LessonsListComponent,
+    UsersComponent
   ],
-  providers: [],
+  providers: [CoursesService, LessonsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

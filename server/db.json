@@ -6,6 +6,27 @@
       "description": "Learn the fundamentals of Angular 9",
       "percentComplete": 26,
       "favorite": true
+    },
+    {
+      "id": 2,
+      "title": "Javascript the really really hard parts",
+      "description": "Worship will sentance",
+      "percentComplete": 0,
+      "favorite": false
+    },
+    {
+      "id": 3,
+      "title": "GraphQL is the masses",
+      "description": "masses is the bosses",
+      "percentComplete": 0,
+      "favorite": false
+    },
+    {
+      "id": 4,
+      "title": "",
+      "description": "",
+      "percentComplete": 0,
+      "favorite": false
     }
   ]
 }
